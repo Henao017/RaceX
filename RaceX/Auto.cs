@@ -10,7 +10,7 @@ namespace RaceX
     {
         public string Nombre {  get; set; }
 
-        public string Tipo { get; protected set; }
+        public string Tipo { get; set; }
 
         public int DistanciaRecorrida { get; protected set; } = 0;
 
